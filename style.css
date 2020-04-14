@@ -29,6 +29,12 @@ body {
     width: 1200px;
 }
 
+.header{
+    width: 100%;
+    justify-content: stretch;
+    text-align: center;
+}
+
 .menu {
     width: 100%;
     display: flex;
@@ -36,13 +42,28 @@ body {
     justify-content: space-evenly;
     height: 50px;
     align-items: center;
-    border-bottom: 8px solid grey;
-    background-color: cornflowerblue;
-    width: 100%;
+    border-bottom: 2px solid grey;
+    padding: 4px;
 }
 
 .day-name {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
     flex: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 00;
+    padding: 4px;
+    margin-bottom: 8px;
+    height: 100%;
+}
+
+.day-name:hover{
+    background-color: rgba(40, 60, 74, 0.5);
+    border-bottom: 6px solid deepskyblue;
+    font-weight: 700;
 }
 
 .section-1 {
