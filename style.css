@@ -171,11 +171,11 @@ body {
     flex-direction: row;
     justify-content: start;
     align-items: center;
-    flex: 1.5;
+    flex: 1;
 }
 
 .points {
-    flex: 2;
+    flex: 1.5;
     padding: 4px;
     display: flex;
     flex-direction: row;
@@ -184,7 +184,8 @@ body {
 }
 
 .point-count {
-    margin: 4px;
+    /* margin: 4px; */
+    padding: 4px;
 }
 
 .time-published {
