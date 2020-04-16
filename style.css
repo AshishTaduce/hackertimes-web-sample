@@ -152,7 +152,7 @@ body {
 
 .small-image {
     padding: 4px;
-    flex: 1;
+    /* flex: 1; */
     float: left;
 }
 
@@ -181,12 +181,31 @@ body {
 }
 
 .news-image-small {
-    padding: 4px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    float: right;
+    margin: 8px 2px;
+}
+
+.news-image-small-3{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
+    float: right;
+    margin: 2px;
+}
+
+.news-subtitle-3{
+    padding: 2px;
+
+    flex: 3;
+    display: flex;
+    flex-direction: row;
 }
 
 .comments-points{
