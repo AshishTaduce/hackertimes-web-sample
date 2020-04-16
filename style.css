@@ -1,34 +1,40 @@
 
 * {
     font-family: 'Noto Serif', serif;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 img {
  /* filter: invert(84%) sepia(10%) saturate(158%) hue-rotate(4deg) brightness(85%) contrast(89%); */
 }
 
+h1, h2, h3 {
+    color: rgb(40,60,74);
+}
+
 .title {
     font-family: 'Roboto Slab', serif;
     /* height: 50px; */
-    font-size: 36px;
+    font-size: 30px;
     /* width: 50px; */
     display: flex;
     margin: auto;
+
     justify-content: center;
     align-items: center;
     padding: 24px;
 }
 
 h2{
-    font-size: 36px;
+    color: 0xFF283C4A;
+    font-size: 30px;
     margin: 0em;
     font-family: 'Noto Serif', serif;
     /* font-weight: 700; */
 }
 
 h3{
-    font-size: 24px;
+    font-size: 20px;
     margin: 0em;
     font-family: 'Noto Serif', serif;
     /* font-weight: 700; */
@@ -43,10 +49,11 @@ body {
 }
 
 .header{
+    font-weight: 700;
     width: 100%;
     justify-content: stretch;
     text-align: center;
-    font-size: 48;
+    font-size: 38;
 }
 
 .menu {
@@ -58,6 +65,18 @@ body {
     align-items: center;
     border-bottom: 2px solid grey;
     padding: 4px;
+}
+
+.news-header{
+    margin: 8px;
+}
+
+.news-submit-by-popular{
+    margin: 8px 0px;
+}
+
+.news-header-popular{
+    margin: 16px 8px;
 }
 
 .day-name {
@@ -156,12 +175,7 @@ body {
     float: left;
 }
 
-.news-card-small {
-    padding-left: 12px;
-    padding-right: 12px;    
-    display: flex;
-    flex: 1;
-}
+
 
 .bottom-border {
     border-bottom: 2px solid #f0f0f0;
@@ -185,7 +199,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 45%;
+    width: 30%;
     float: right;
     margin: 8px 2px;
 }
@@ -303,6 +317,7 @@ body {
     width: 16px; 
     height: 16px;
     padding: 8px;
+    padding-bottom: 4px;
 }
 
 .section-1 > unpopular-card > small-cards:first-child{
@@ -329,3 +344,20 @@ body {
     border-right: 2px solid #f0f0f0;
 }
 
+.news-image-small-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    float: right;
+    margin: 8px 2px;
+}
+
+.news-card-small {
+    padding-left: 12px;
+    padding-right: 12px;    
+    display: flex;
+    flex: 1;
+    margin: 8px 0px;
+}
